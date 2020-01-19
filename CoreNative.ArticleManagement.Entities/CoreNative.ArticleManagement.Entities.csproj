@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreNative.Base\CoreNative.Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ComplexType\" />
+  </ItemGroup>
+
+</Project>
